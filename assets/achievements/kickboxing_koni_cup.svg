@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="grad_kickboxing_koni_cup_svg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#713f12" />
+      <stop offset="100%" stop-color="#422006" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#grad_kickboxing_koni_cup_svg)" />
+  <rect width="1200" height="675" fill="url(#grid)" />
+  <rect x="25" y="25" width="1150" height="625" rx="16" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+
+  <rect x="60" y="60" width="370" height="40" rx="20" fill="rgba(255,255,255,0.08)" stroke="#facc15" stroke-width="1.5" />
+  <text x="80" y="86" fill="#facc15" font-family="sans-serif" font-size="14" font-weight="bold" letter-spacing="2">EMAS / 1ST PLACE</text>
+
+  <circle cx="600" cy="240" r="70" fill="rgba(255,255,255,0.06)" stroke="#facc15" stroke-width="2" />
+  <text x="600" y="260" text-anchor="middle" font-size="64">🥇</text>
+
+  <text x="600" y="375" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-size="34" font-weight="bold">Juara 1 — Point Fighting 60 kg</text>
+  <text x="600" y="420" text-anchor="middle" fill="#cbd5e1" font-family="sans-serif" font-size="20">Kejuaraan Kickboxing Piala KONI Kab. Jombang (2024)</text>
+
+  <rect x="250" y="480" width="700" height="60" rx="10" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+  <text x="600" y="517" text-anchor="middle" fill="#e2e8f0" font-family="monospace" font-size="15">📷 Ganti dengan foto medali/podium di assets/achievements/kickboxing_koni_cup.jpg</text>
+</svg>

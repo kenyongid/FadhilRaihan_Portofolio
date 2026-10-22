@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Fadhil Raihan — Junior Full-Stack Developer | Home</title>
+  <meta name="description" content="Portfolio of Fadhil Raihan, Informatics Engineering graduate specializing in Laravel, PHP, MySQL, and AI-integrated web applications (RAG/LLM).">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231d4ed8'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold' font-size='44'>FR</text></svg>">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 & Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER / NAVIGATION
+       ========================================================================== -->
+  <header class="site-header fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNavbar" aria-label="Main Navigation">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <span class="brand-monogram">FR</span>
+          <span class="brand-name">Fadhil Raihan<span class="brand-dot">.</span></span>
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="experience.html">Experience & Leadership</a></li>
+            <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements & Credentials</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item ms-lg-2">
+              <a class="btn btn-sm btn-contact-nav" href="contact.html">Get in Touch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-8">
+            <div class="hero-label-tag">
+              <span class="status-indicator"></span>
+              <span>INFORMATICS ENGINEERING · FULL-STACK WEB DEVELOPMENT</span>
+            </div>
+
+            <h1 class="hero-heading">
+              Building Web Applications That Solve Real Problems.
+            </h1>
+
+            <p class="hero-subheading">
+              Junior Full-Stack Developer focused on Laravel, PHP, database-driven systems, and AI-integrated web solutions. Grounding user requirements into maintainable backend logic, verified data flows, and clear user experiences.
+            </p>
+
+            <div class="hero-cta-group d-flex flex-wrap align-items-center gap-3">
+              <a href="projects.html" class="btn btn-primary-cobalt">
+                Explore Projects (9) <i class="bi bi-arrow-right ms-1" aria-hidden="true"></i>
+              </a>
+              <a href="experience.html" class="btn btn-outline-charcoal">
+                Work Experience
+              </a>
+              <a href="https://github.com/kenyongid" target="_blank" rel="noopener noreferrer" class="btn btn-outline-charcoal">
+                <i class="bi bi-github me-1" aria-hidden="true"></i> GitHub
+              </a>
+              <a href="https://www.linkedin.com/in/fadhil-raihan-f74/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-charcoal">
+                <i class="bi bi-linkedin me-1" aria-hidden="true"></i> LinkedIn
+              </a>
+            </div>
+
+            <div class="hero-status-strip mt-4">
+              <span class="status-meta-item">
+                <i class="bi bi-geo-alt text-cobalt me-1" aria-hidden="true"></i> Based in Semarang, Indonesia
+              </span>
+              <span class="status-bullet" aria-hidden="true">•</span>
+              <span class="status-meta-item">
+                <i class="bi bi-briefcase text-cobalt me-1" aria-hidden="true"></i> Open to Junior Full-Stack & IT Support Roles
+              </span>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="profile-portrait-card">
+              <div class="portrait-frame">
+                <img src="assets/profile/fadhil_photo.png" alt="Fadhil Raihan" class="portrait-image" onerror="this.style.display='none'; document.getElementById('monogramFallback').style.display='flex';">
+                <div id="monogramFallback" class="portrait-fallback" style="display: none;">
+                  <span>FR</span>
+                </div>
+              </div>
+              <div class="portrait-meta">
+                <h2 class="portrait-name">Fadhil Raihan</h2>
+                <p class="portrait-title">Junior Full-Stack Developer</p>
+                <div class="portrait-badges">
+                  <span class="badge-pill">Laravel / PHP</span>
+                  <span class="badge-pill">RAG & AI</span>
+                  <span class="badge-pill">MySQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT / EXECUTIVE SUMMARY
+         ========================================================================== -->
+    <section class="section-block border-top">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-num">01 / BACKGROUND & NARRATIVE</p>
+          <h2 class="section-title">Practical Software Development Grounded in Real Experience</h2>
+        </div>
+
+        <div class="row g-5 align-items-start">
+          <div class="col-lg-7">
+            <p class="lead-text">
+              I am an Informatics Engineering graduate from Universitas PGRI Semarang (GPA 3.73/4.00) with a foundational background in Vocational Software Engineering (SMKN 1 Simpang Katis).
+            </p>
+            <p class="body-text">
+              I work primarily with PHP, Laravel, JavaScript, and MySQL, and I have explored AI-integrated web applications using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG). My technical experience includes developing and maintaining web applications during my internship at PT Taman Media Indonesia (Crocodic), as well as building database-driven systems for facility reservations, decision support, and public administration.
+            </p>
+            <p class="body-text">
+              Beyond code, active participation in faculty student organizations (BEM FTI), public speaking as an MC and discussion moderator, community leadership in KKN, and competitive martial arts have shaped my discipline, communication, and systematic problem-solving approach.
+            </p>
+            <div class="mt-4 pt-2">
+              <a href="experience.html" class="btn btn-outline-charcoal btn-sm">
+                View Full Experience & Leadership <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="value-pillars">
+              <div class="pillar-item">
+                <div class="pillar-num">01</div>
+                <div>
+                  <h3 class="pillar-title">Practical Full-Stack Execution</h3>
+                  <p class="pillar-desc">
+                    Designing clean relational database schemas, implementing MVC architectures with Laravel, and delivering responsive frontends.
+                  </p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-num">02</div>
+                <div>
+                  <h3 class="pillar-title">Applied AI & Semantic Retrieval</h3>
+                  <p class="pillar-desc">
+                    Integrating vector embeddings, ChromaDB, and LLM orchestration to build grounded conversational recommendation systems.
+                  </p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-num">03</div>
+                <div>
+                  <h3 class="pillar-title">Technical Communication & Teamwork</h3>
+                  <p class="pillar-desc">
+                    Communicating ideas clearly to technical and non-technical stakeholders, honed through organization leadership, seminar talks, and team coordination.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED PROJECTS HIGHLIGHT (Preview of projects.html)
+         ========================================================================== -->
+    <section class="section-block bg-subtle border-top">
+      <div class="container">
+        <div class="section-header d-md-flex align-items-end justify-content-between">
+          <div>
+            <p class="section-num">02 / FEATURED WORK</p>
+            <h2 class="section-title">Verified Applications & Implementations</h2>
+          </div>
+          <div class="mt-3 mt-md-0">
+            <a href="projects.html" class="link-subtle">
+              Browse All 9 Projects <i class="bi bi-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Featured 1: Penahero AI -->
+          <div class="col-lg-6">
+            <article class="featured-project-card h-100">
+              <div class="featured-card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="badge-category">AI INTEGRATION · FULL-STACK WEB</span>
+                  <span class="badge-status">Academic Final Project</span>
+                </div>
+                <h3 class="featured-title mt-2">Penahero AI Recommendation System</h3>
+                <p class="featured-summary">
+                  A web-based recommendation system combining Large Language Models with Retrieval-Augmented Generation (RAG) to provide grounded perfume consultations based on scent preference notes and user requirements.
+                </p>
+              </div>
+
+              <div class="featured-card-body">
+                <div class="architecture-flow-box">
+                  <div class="flow-step">
+                    <span class="step-num">1</span>
+                    <span class="step-txt">Product Knowledge Base (MySQL / Embeddings)</span>
+                  </div>
+                  <div class="flow-arrow"><i class="bi bi-arrow-down"></i></div>
+                  <div class="flow-step">
+                    <span class="step-num">2</span>
+                    <span class="step-txt">Semantic Retrieval via ChromaDB Vector Store</span>
+                  </div>
+                  <div class="flow-arrow"><i class="bi bi-arrow-down"></i></div>
+                  <div class="flow-step">
+                    <span class="step-num">3</span>
+                    <span class="step-txt">Contextual Response via Google Gemini LLM</span>
+                  </div>
+                </div>
+
+                <div class="tech-tag-group mt-3">
+                  <span class="tag">Laravel 11</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Google Gemini</span>
+                  <span class="tag">ChromaDB</span>
+                  <span class="tag">LangChain</span>
+                  <span class="tag">RAGAS</span>
+                  <span class="tag">Tailwind CSS</span>
+                </div>
+              </div>
+
+              <div class="featured-card-footer">
+                <a href="https://github.com/kenyongid/penahero-ai-recommendation-system" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-charcoal">
+                  <i class="bi bi-github me-1"></i> View Repository
+                </a>
+                <a href="projects.html#penahero" class="btn btn-sm btn-link-action ms-auto">
+                  Full Case Study <i class="bi bi-chevron-right ms-1"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Featured 2: SportSpace -->
+          <div class="col-lg-6">
+            <article class="featured-project-card h-100">
+              <div class="featured-card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="badge-category">FULL-STACK WEB · BOOKING SYSTEM</span>
+                  <span class="badge-status">Training & Assessment Project</span>
+                </div>
+                <h3 class="featured-title mt-2">SportSpace: Sports Facility Reservation System</h3>
+                <p class="featured-summary">
+                  An end-to-end web reservation platform for sports venues managing facility listings, schedule collision prevention, add-on products, searchable booking codes, and exportable reports.
+                </p>
+              </div>
+
+              <div class="featured-card-body">
+                <div class="key-features-list">
+                  <div class="kf-item">
+                    <i class="bi bi-check2 text-cobalt"></i>
+                    <span><strong>Customer Booking Journey:</strong> Facility selection, date/time slot conflict detection, optional beverage add-ons, and searchable reservation codes.</span>
+                  </div>
+                  <div class="kf-item">
+                    <i class="bi bi-check2 text-cobalt"></i>
+                    <span><strong>Proof of Booking:</strong> Automated generation of downloadable PDF reservation confirmation for customer check-in.</span>
+                  </div>
+                  <div class="kf-item">
+                    <i class="bi bi-check2 text-cobalt"></i>
+                    <span><strong>Admin Operations:</strong> Venue inventory management, reservation approval/rejection workflows, and exportable reports (PDF, CSV, Excel).</span>
+                  </div>
+                </div>
+
+                <div class="tech-tag-group mt-3">
+                  <span class="tag">PHP 8+</span>
+                  <span class="tag">Laravel</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Blade</span>
+                  <span class="tag">Bootstrap 5</span>
+                  <span class="tag">ApexCharts</span>
+                  <span class="tag">DomPDF</span>
+                </div>
+              </div>
+
+              <div class="featured-card-footer">
+                <a href="https://github.com/kenyongid/sistem_reservasi_lapangan.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-charcoal">
+                  <i class="bi bi-github me-1"></i> View Repository
+                </a>
+                <a href="projects.html#sportspace" class="btn btn-sm btn-link-action ms-auto">
+                  Full Case Study <i class="bi bi-chevron-right ms-1"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TECHNICAL COMPETENCIES (Skills Overview)
+         ========================================================================== -->
+    <section class="section-block border-top">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-num">03 / CORE COMPETENCIES</p>
+          <h2 class="section-title">Technical Skills & Tooling</h2>
+          <p class="section-intro">
+            Structured by practical application across production environments, academic implementations, and internships.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-group-card h-100">
+              <div class="skill-group-header">
+                <span class="skill-tier-badge primary-tier">PRIMARY STACK</span>
+                <h3 class="skill-group-title">Backend & Web Engineering</h3>
+              </div>
+              <ul class="skill-list list-unstyled">
+                <li><i class="bi bi-check2 text-cobalt me-2"></i><strong>PHP (8+)</strong> & Laravel MVC</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i><strong>MySQL</strong> & Relational Schema Design</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i><strong>Eloquent ORM</strong> & Query Optimization</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i><strong>RESTful API</strong> Design & Integration</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i>Blade Templating & CRUD Workflows</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-group-card h-100">
+              <div class="skill-group-header">
+                <span class="skill-tier-badge">AI & DATA</span>
+                <h3 class="skill-group-title">AI Integration & Data Logic</h3>
+              </div>
+              <ul class="skill-list list-unstyled">
+                <li><i class="bi bi-check2 text-cobalt me-2"></i><strong>Retrieval-Augmented Generation (RAG)</strong></li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i><strong>ChromaDB</strong> Vector Database & Embeddings</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i><strong>Google Gemini API</strong> & LangChain</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i>RAGAS Quality Evaluation Framework</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i>Python 3 (Flask, Rule-Based Logic)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-group-card h-100">
+              <div class="skill-group-header">
+                <span class="skill-tier-badge">FRONTEND & TOOLS</span>
+                <h3 class="skill-group-title">Frontend, Mobile & Tools</h3>
+              </div>
+              <ul class="skill-list list-unstyled">
+                <li><i class="bi bi-check2 text-cobalt me-2"></i><strong>JavaScript (ES6+)</strong> & Bootstrap 5</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i>Flutter SDK & Dart Mobile Development</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i>Git & GitHub / GitLab CI/CD Basics</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i>Postman API Testing & Inspection</li>
+                <li><i class="bi bi-check2 text-cobalt me-2"></i>QGIS Desktop & WebGIS Mapping</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CALL TO ACTION STRIP
+         ========================================================================== -->
+    <section class="section-block bg-subtle border-top">
+      <div class="container">
+        <div class="cta-strip d-md-flex align-items-center justify-content-between">
+          <div>
+            <h3>Let's Build Something Useful Together.</h3>
+            <p>Open to Junior Web Developer, Junior Full-Stack, PHP/Laravel, and IT Support roles in Indonesia & remotely.</p>
+          </div>
+          <div class="mt-3 mt-md-0 d-flex gap-2">
+            <a href="contact.html" class="btn btn-primary-cobalt">Contact Me</a>
+            <a href="projects.html" class="btn btn-outline-charcoal">View Projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER (Multi-Column Clean Design)
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Col 1: Brand & Summary -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <span class="footer-monogram">FR</span>
+            <span class="footer-brand-name">Fadhil Raihan<span class="brand-dot">.</span></span>
+          </div>
+          <p class="footer-bio">
+            Junior Full-Stack Developer specializing in Laravel, PHP, MySQL, and AI-integrated applications. Grounded in Software Engineering and practical team workflows.
+          </p>
+          <div class="footer-status-box">
+            <span class="footer-status-indicator"></span>
+            <span class="text-white small fw-bold">Open to Junior Opportunities</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list list-unstyled">
+            <li><a href="index.html">Home Overview</a></li>
+            <li><a href="projects.html">Projects Archive (9)</a></li>
+            <li><a href="experience.html">Experience & Leadership</a></li>
+            <li><a href="achievements.html">Achievements & Credentials</a></li>
+            <li><a href="contact.html">Contact & Targeting</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Direct Contact -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-col-title">Contact Channels</h4>
+          <ul class="footer-contact-list list-unstyled">
+            <li><i class="bi bi-envelope text-cobalt"></i> <a href="mailto:reyhanfadil555@gmail.com">reyhanfadil555@gmail.com</a></li>
+            <li><i class="bi bi-telephone text-cobalt"></i> <a href="tel:+6283173775097">+62 831-7377-5097</a></li>
+            <li><i class="bi bi-github text-cobalt"></i> <a href="https://github.com/kenyongid" target="_blank" rel="noopener noreferrer">github.com/kenyongid</a></li>
+            <li><i class="bi bi-linkedin text-cobalt"></i> <a href="https://www.linkedin.com/in/fadhil-raihan-f74/" target="_blank" rel="noopener noreferrer">linkedin.com/in/fadhil-raihan-f74</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Location & Quick Copy -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-col-title">Location & Details</h4>
+          <p class="small text-muted mb-2"><i class="bi bi-geo-alt me-1"></i> Semarang, Central Java, Indonesia</p>
+          <p class="small text-muted mb-3">Available for On-site, Hybrid, or Remote Junior Developer positions.</p>
+          <button type="button" class="btn btn-sm btn-outline-charcoal w-100 copy-contact-btn">
+            <i class="bi bi-clipboard-check me-1"></i> Copy Contact Summary
+          </button>
+          <div class="copy-feedback-msg small mt-1 text-center" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar d-flex flex-wrap align-items-center justify-content-between gap-3">
+        <div>
+          © 2026 Fadhil Raihan. Evidence-driven developer portfolio.
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <span class="text-muted small">Verified GitHub Repositories</span>
+          <button type="button" class="back-to-top-btn" id="backToTopBtn">
+            Back to Top <i class="bi bi-arrow-up ms-1"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

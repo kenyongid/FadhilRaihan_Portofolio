@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Fadhil Raihan — Projects Portfolio | Verified GitHub Repositories</title>
+  <meta name="description" content="Verified software projects by Fadhil Raihan, covering Laravel web systems, AI RAG integration, Flutter mobile apps, and WebGIS.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231d4ed8'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold' font-size='44'>FR</text></svg>">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 & Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER / NAVIGATION
+       ========================================================================== -->
+  <header class="site-header fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNavbar" aria-label="Main Navigation">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <span class="brand-monogram">FR</span>
+          <span class="brand-name">Fadhil Raihan<span class="brand-dot">.</span></span>
+        </a>
+
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="experience.html">Experience & Leadership</a></li>
+            <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements & Credentials</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item ms-lg-2">
+              <a class="btn btn-sm btn-contact-nav" href="contact.html">Get in Touch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         PAGE BANNER
+         ========================================================================== -->
+    <section class="page-banner">
+      <div class="container">
+        <span class="page-banner-badge">02 / PROJECTS PORTFOLIO</span>
+        <h1 class="page-banner-title">Verified Code & Architecture</h1>
+        <p class="page-banner-desc">
+          A transparent collection of 9 software repositories inspected directly from code. Spanning full-stack Laravel systems, applied AI with RAG, mobile Flutter development, and decision-support algorithms.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROJECT PHOTO SLIDESHOW / CAROUSEL (EASY TO ADD & CUSTOMIZE)
+         ========================================================================== -->
+    <section class="section-block border-bottom bg-subtle">
+      <div class="container">
+        <div class="section-header d-md-flex align-items-end justify-content-between">
+          <div>
+            <p class="section-num">PROJECT SHOWCASE SLIDESHOW</p>
+            <h2 class="section-title">Visual Gallery & Application Slideshow</h2>
+          </div>
+          <div class="mt-2 mt-md-0">
+            <span class="photo-hint-pill"><i class="bi bi-info-circle me-1"></i> Simpan foto baru di <code>assets/projects/</code></span>
+          </div>
+        </div>
+
+        <!-- Carousel Container -->
+        <div id="projectVisualCarousel" class="carousel slide portfolio-carousel" data-bs-ride="carousel">
+          
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#projectVisualCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#projectVisualCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#projectVisualCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#projectVisualCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#projectVisualCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+
+          <!-- Slides Wrapper -->
+          <div class="carousel-inner">
+            
+            <!-- ==================================================================
+                 SLIDE 1: PENAHERO AI
+                 Untuk mengganti foto: simpan foto Anda di assets/projects/
+                 lalu sesuaikan path src di bawah.
+                 ================================================================== -->
+            <div class="carousel-item active">
+              <img src="assets/projects/penahero.png" onerror="this.onerror=null; this.src='assets/projects/penahero.png';" class="d-block w-100 carousel-img" alt="Penahero AI Recommendation System">
+              <div class="carousel-caption-box">
+                <span class="caption-tag">AI INTEGRATION · RAG CHATBOT</span>
+                <h3 class="caption-title">Penahero — AI Fragrance Recommendation System</h3>
+                <p class="caption-desc">
+                  Chatbot asisten cerdas berbasis Retrieval-Augmented Generation (RAG) dengan ChromaDB vector database dan Google Gemini LLM.
+                </p>
+                <span class="photo-hint-pill">📷 Path Foto: <code>assets/projects/penahero.png</code></span>
+              </div>
+            </div>
+
+            <!-- ==================================================================
+                 SLIDE 2: SPORTSPACE RESERVATION
+                 ================================================================== -->
+            <div class="carousel-item">
+              <img src="assets/projects/sportspace_preview.png" onerror="this.onerror=null; this.src='assets/projects/sportspace_preview.svg';" class="d-block w-100 carousel-img" alt="SportSpace Reservation System">
+              <div class="carousel-caption-box">
+                <span class="caption-tag">FULL-STACK WEB · BOOKING PLATFORM</span>
+                <h3 class="caption-title">SportSpace — Sports Venue Reservation System</h3>
+                <p class="caption-desc">
+                  Sistem pemesanan lapangan olahraga terintegrasi dengan validasi pencegahan jadwal bentrok, produk tambahan, dan bukti PDF booking.
+                </p>
+                <span class="photo-hint-pill">📷 Path Foto: <code>assets/projects/sportspace_preview.png</code></span>
+              </div>
+            </div>
+
+            <!-- ==================================================================
+                 SLIDE 3: VAPESTORE FLUTTER MOBILE
+                 ================================================================== -->
+            <div class="carousel-item">
+              <img src="assets/projects/vapestore_screenshot.jpg" onerror="this.onerror=null; this.src='assets/projects/vapestore_banner.jpg';" class="d-block w-100 carousel-img" alt="VapeStore Flutter Mobile">
+              <div class="carousel-caption-box">
+                <span class="caption-tag">MOBILE APPLICATION · FLUTTER & DART</span>
+                <h3 class="caption-title">VapeStore — Mobile E-Commerce Application</h3>
+                <p class="caption-desc">
+                  Aplikasi mobile Android/iOS dengan manajemen state Provider untuk keranjang belanja real-time dan penyimpanan lokal SQLite.
+                </p>
+                <span class="photo-hint-pill">📷 Path Foto: <code>assets/projects/vapestore_screenshot.jpg</code></span>
+              </div>
+            </div>
+
+            <!-- ==================================================================
+                 SLIDE 4: BABELSNACK WEBGIS
+                 ================================================================== -->
+            <div class="carousel-item">
+              <img src="assets/projects/babelsnack.png" onerror="this.onerror=null; this.src='assets/projects/babelsnack.png';" class="d-block w-100 carousel-img" alt="BabelSnack WebGIS">
+              <div class="carousel-caption-box">
+                <span class="caption-tag">WEBGIS & SPASIAL · BANGKA BELITUNG</span>
+                <h3 class="caption-title">BabelSnack — E-Commerce & Peta WebGIS QGIS</h3>
+                <p class="caption-desc">
+                  Katalog kuliner tradisional khas Bangka Belitung yang dipadukan dengan visualisasi persebaran spasial interaktif berbasis QGIS.
+                </p>
+                <span class="photo-hint-pill">📷 Path Foto: <code>assets/projects/babelsnack.png</code></span>
+              </div>
+            </div>
+
+            <!-- ==================================================================
+                 SLIDE 5: PEDULI DIRI LOGBOOK
+                 ================================================================== -->
+            <div class="carousel-item">
+              <img src="assets/projects/peduli_diri_preview (2).png" onerror="this.onerror=null; this.src='assets/projects/peduli_diri_preview.png';" class="d-block w-100 carousel-img" alt="Peduli Diri Logbook">
+              <div class="carousel-caption-box">
+                <span class="caption-tag">INFORMATION SYSTEM · TRAVEL LOGBOOK</span>
+                <h3 class="caption-title">Peduli Diri — Travel & Health Tracking Dashboard</h3>
+                <p class="caption-desc">
+                  Sistem pencatatan mobilitas harian dan pemantauan suhu tubuh mandiri berbasis PHP dan dashboard admin DataTables.
+                </p>
+                <span class="photo-hint-pill">📷 Path Foto: <code>assets/projects/peduli_diri_preview (2).png</code></span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-nav-btn prev-btn" type="button" data-bs-target="#projectVisualCarousel" data-bs-slide="prev" aria-label="Previous Slide">
+            <i class="bi bi-chevron-left" aria-hidden="true"></i>
+          </button>
+          <button class="carousel-nav-btn next-btn" type="button" data-bs-target="#projectVisualCarousel" data-bs-slide="next" aria-label="Next Slide">
+            <i class="bi bi-chevron-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FEATURED CASE STUDIES (PRIMARY IMPLEMENTATIONS)
+         ========================================================================== -->
+    <section class="section-block border-bottom">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-num">FEATURED CASE STUDIES</p>
+          <h2 class="section-title">Primary Featured Systems</h2>
+          <p class="section-intro">
+            Comprehensive web applications demonstrating end-to-end architecture, database normalization, and algorithmic integrations.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Featured 1: Penahero AI -->
+          <div class="col-lg-6" id="penahero">
+            <article class="featured-project-card h-100">
+              <div class="featured-card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="badge-category">AI INTEGRATION · FULL-STACK WEB</span>
+                  <span class="badge-status">Academic Final Project</span>
+                </div>
+                <h3 class="featured-title mt-2">Penahero AI Recommendation System</h3>
+                <p class="featured-summary">
+                  A conversational fragrance recommendation application combining Large Language Models with Retrieval-Augmented Generation (RAG). Solves user ambiguity by grounding conversational suggestions directly in an authoritative product database.
+                </p>
+              </div>
+
+              <div class="featured-card-body">
+                <div class="architecture-flow-box">
+                  <div class="flow-step">
+                    <span class="step-num">1</span>
+                    <span class="step-txt">Product Knowledge Base (MySQL / Embeddings)</span>
+                  </div>
+                  <div class="flow-arrow"><i class="bi bi-arrow-down"></i></div>
+                  <div class="flow-step">
+                    <span class="step-num">2</span>
+                    <span class="step-txt">Semantic Retrieval via ChromaDB Vector Store</span>
+                  </div>
+                  <div class="flow-arrow"><i class="bi bi-arrow-down"></i></div>
+                  <div class="flow-step">
+                    <span class="step-num">3</span>
+                    <span class="step-txt">Contextual Response via Google Gemini LLM</span>
+                  </div>
+                </div>
+
+                <div class="evaluation-metric-callout">
+                  <div class="eval-title"><i class="bi bi-check2-circle text-cobalt me-1"></i> Documented Academic Testing</div>
+                  <div class="eval-grid">
+                    <div>
+                      <span class="eval-score">100%</span>
+                      <span class="eval-label">Functional Test Success (Tested Scope)</span>
+                    </div>
+                    <div>
+                      <span class="eval-score">92.25%</span>
+                      <span class="eval-label">User Acceptance Testing (Very Feasible)</span>
+                    </div>
+                  </div>
+                  <p class="eval-disclaimer">
+                    Evaluated with the RAGAS framework across faithfulness, relevancy, and precision. Stated figures reflect academic testing records on designated functions, not a guarantee of 100% LLM conversational accuracy.
+                  </p>
+                </div>
+
+                <div class="tech-tag-group mt-3">
+                  <span class="tag">Laravel 11</span>
+                  <span class="tag">Python</span>
+                  <span class="tag">Google Gemini</span>
+                  <span class="tag">ChromaDB</span>
+                  <span class="tag">LangChain</span>
+                  <span class="tag">RAGAS</span>
+                  <span class="tag">Tailwind CSS</span>
+                  <span class="tag">MySQL</span>
+                </div>
+              </div>
+
+              <div class="featured-card-footer">
+                <a href="https://github.com/kenyongid/penahero-ai-recommendation-system" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-charcoal">
+                  <i class="bi bi-github me-1"></i> View on GitHub <i class="bi bi-arrow-up-right ms-1"></i>
+                </a>
+                <button type="button" class="btn btn-sm btn-link-action ms-auto" data-bs-toggle="modal" data-bs-target="#modalPenahero">
+                  Detailed Case Study <i class="bi bi-chevron-right ms-1"></i>
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Featured 2: SportSpace -->
+          <div class="col-lg-6" id="sportspace">
+            <article class="featured-project-card h-100">
+              <div class="featured-card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="badge-category">FULL-STACK WEB · BOOKING SYSTEM</span>
+                  <span class="badge-status">Training & Assessment Project</span>
+                </div>
+                <h3 class="featured-title mt-2">SportSpace: Sports Facility Reservation System</h3>
+                <p class="featured-summary">
+                  A reservation platform for sports facilities built with Laravel and MySQL. Validates court schedules, prevents double-booking overlaps, supports concession add-ons, generates PDF receipts, and provides admin management.
+                </p>
+              </div>
+
+              <div class="featured-card-body">
+                <div class="key-features-list">
+                  <div class="kf-item">
+                    <i class="bi bi-check2 text-cobalt"></i>
+                    <span><strong>Customer Booking Flow:</strong> Venue browsing, date and time-slot selection, real-time availability check, optional concession purchasing, and unique booking codes.</span>
+                  </div>
+                  <div class="kf-item">
+                    <i class="bi bi-check2 text-cobalt"></i>
+                    <span><strong>Automated Proof Generation:</strong> Downloadable PDF confirmation proof for check-in verification generated via DomPDF.</span>
+                  </div>
+                  <div class="kf-item">
+                    <i class="bi bi-check2 text-cobalt"></i>
+                    <span><strong>Admin Management & Reports:</strong> Venue catalog CRUD, reservation approval/rejection workflows, and multi-format transaction reports (PDF, CSV, Excel).</span>
+                  </div>
+                  <div class="kf-item">
+                    <i class="bi bi-check2 text-cobalt"></i>
+                    <span><strong>Analytical Visualization:</strong> Interactive booking volume and venue activity charts rendered with ApexCharts.</span>
+                  </div>
+                </div>
+
+                <div class="tech-tag-group mt-3">
+                  <span class="tag">PHP 8+</span>
+                  <span class="tag">Laravel</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Blade</span>
+                  <span class="tag">Bootstrap 5</span>
+                  <span class="tag">ApexCharts</span>
+                  <span class="tag">DomPDF</span>
+                </div>
+              </div>
+
+              <div class="featured-card-footer">
+                <a href="https://github.com/kenyongid/sistem_reservasi_lapangan.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline-charcoal">
+                  <i class="bi bi-github me-1"></i> View on GitHub <i class="bi bi-arrow-up-right ms-1"></i>
+                </a>
+                <button type="button" class="btn btn-sm btn-link-action ms-auto" data-bs-toggle="modal" data-bs-target="#modalSportSpace">
+                  Detailed Case Study <i class="bi bi-chevron-right ms-1"></i>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ADDITIONAL REPOSITORIES ARCHIVE (7 PROJECTS)
+         ========================================================================== -->
+    <section class="section-block bg-subtle">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-num">PROJECTS ARCHIVE</p>
+          <h2 class="section-title">Additional Projects & Technical Repositories</h2>
+          <p class="section-intro">
+            Filter repositories by domain or search by keyword to review specific technical implementations.
+          </p>
+        </div>
+
+        <!-- Filter & Search Toolbar -->
+        <div class="filter-toolbar-wrapper d-flex flex-wrap align-items-center justify-content-between gap-3">
+          <div class="filter-toolbar">
+            <button type="button" class="btn-filter active" data-filter="all">All Repositories (7)</button>
+            <button type="button" class="btn-filter" data-filter="decision">Decision & Data</button>
+            <button type="button" class="btn-filter" data-filter="web">Web & CMS</button>
+            <button type="button" class="btn-filter" data-filter="mobile">Mobile & GIS</button>
+          </div>
+
+          <div class="search-input-wrapper">
+            <i class="bi bi-search search-icon"></i>
+            <input type="text" id="projectSearchInput" class="form-control project-search-control" placeholder="Search tech or name...">
+          </div>
+        </div>
+
+        <div class="row g-4" id="projectCardsContainer">
+          
+          <!-- Project 3: SPK Beasiswa -->
+          <div class="col-md-6 col-lg-4 project-archive-item" data-category="decision">
+            <div class="archive-card h-100">
+              <div class="activity-img-frame mb-3 rounded border">
+                <img src="assets/projects/spk_beasiswa_preview (2).png" onerror="this.onerror=null; this.src='assets/projects/spk_beasiswa_preview.svg';" alt="SPK Beasiswa Screenshot" class="img-fluid">
+              </div>
+              <div class="archive-meta">
+                <span class="cat-pill">DECISION SUPPORT</span>
+                <span class="tag-status">Academic System</span>
+              </div>
+              <h3 class="archive-title">Scholarship Decision Support System</h3>
+              <p class="archive-desc">
+                Web-based decision support system ranking scholarship applicants based on parent income, GPA, and number of dependents.
+              </p>
+              <div class="code-note">
+                <i class="bi bi-code-slash text-cobalt me-1"></i>
+                <strong>Algorithm Method:</strong> Implemented using the <em>Simple Additive Weighting (SAW)</em> method. Code inspection of <code>rangking.php</code> verified cost/benefit normalization ($R = \min(X)/X$ and $X/\max(X)$) with weighted preference scoring (0.5, 0.3, 0.2).
+              </div>
+              <div class="tech-tag-group">
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">SAW Method</span>
+                <span class="tag">FPDF</span>
+                <span class="tag">DataTables</span>
+              </div>
+              <div class="archive-links mt-auto pt-3 border-top">
+                <a href="https://github.com/kenyongid/spk_beasiswa.git" target="_blank" rel="noopener noreferrer" class="link-subtle">
+                  Inspect Repository <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Stunting Risk Classification -->
+          <div class="col-md-6 col-lg-4 project-archive-item" data-category="decision">
+            <div class="archive-card h-100">
+              <div class="activity-img-frame mb-3 rounded border">
+                <img src="assets/projects/stunting_preview.png" onerror="this.onerror=null; this.src='assets/projects/stunting_preview.svg';" alt="Stunting Classification Screenshot" class="img-fluid">
+              </div>
+              <div class="archive-meta">
+                <span class="cat-pill">DATA-DRIVEN WEB</span>
+                <span class="tag-status">Python Prototype</span>
+              </div>
+              <h3 class="archive-title">Stunting Risk Classification System</h3>
+              <p class="archive-desc">
+                Python Flask web application classifying child growth health risk levels (High, Moderate, Low Risk) from submitted age, height, and weight metrics.
+              </p>
+              <div class="code-note">
+                <i class="bi bi-info-circle text-cobalt me-1"></i>
+                <strong>Implementation:</strong> Built using deterministic rule-based heuristic conditionals paired with dietary nutrition suggestions. Not a medical diagnostic tool or machine learning model.
+              </div>
+              <div class="tech-tag-group">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">Rule-Based Logic</span>
+              </div>
+              <div class="archive-links mt-auto pt-3 border-top">
+                <a href="https://github.com/kenyongid/stunting.git" target="_blank" rel="noopener noreferrer" class="link-subtle">
+                  Inspect Repository <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Sistem Penggalangan Dana -->
+          <div class="col-md-6 col-lg-4 project-archive-item" data-category="web">
+            <div class="archive-card h-100">
+              <div class="activity-img-frame mb-3 rounded border">
+                <img src="assets/projects/penggalangan_dana_preview.png" onerror="this.onerror=null; this.src='assets/projects/penggalangan_dana_preview.svg';" alt="Penggalangan Dana Screenshot" class="img-fluid">
+              </div>
+              <div class="archive-meta">
+                <span class="cat-pill">COLLABORATIVE PROJECT</span>
+                <span class="tag-status">Base Architecture</span>
+              </div>
+              <h3 class="archive-title">Sistem Penggalangan Dana (Fundraising Base)</h3>
+              <p class="archive-desc">
+                Collaborative initiative to design a community donation and campaign management system.
+              </p>
+              <div class="code-note">
+                <i class="bi bi-people text-cobalt me-1"></i>
+                <strong>Collaboration Scope:</strong> Foundation repository hosted under collaborator <code>hanunravi</code>. Contains the base Laravel structural configuration; automated financial disbursement and payment gateways are not implemented.
+              </div>
+              <div class="tech-tag-group">
+                <span class="tag">Laravel</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MVC Structure</span>
+                <span class="tag">Team Repo</span>
+              </div>
+              <div class="archive-links mt-auto pt-3 border-top">
+                <a href="https://github.com/hanunravi/sistem-penggalangan-dana.git" target="_blank" rel="noopener noreferrer" class="link-subtle">
+                  Collaborative Repo <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: WordPress Perfume Store -->
+          <div class="col-md-6 col-lg-4 project-archive-item" data-category="web">
+            <div class="archive-card h-100">
+              <div class="activity-img-frame mb-3 rounded border">
+                <img src="assets/projects/rayasah.png" onerror="this.onerror=null; this.src='assets/projects/parfum_product.jpg';" alt="Rayasah WordPress Store Screenshot" class="img-fluid">
+              </div>
+              <div class="archive-meta">
+                <span class="cat-pill">CMS & E-COMMERCE</span>
+                <span class="tag-status">Store Setup</span>
+              </div>
+              <h3 class="archive-title">Rayasah: WordPress Perfume Store</h3>
+              <p class="archive-desc">
+                E-commerce storefront configuration for perfume and fragrances built on WordPress and WooCommerce. Demonstrates online store management and CMS customizations.
+              </p>
+              <div class="code-note">
+                <i class="bi bi-shop text-cobalt me-1"></i>
+                <strong>Configured Components:</strong> Product variation swatches for scents and bottle sizes, Elementor layout styling, PayPal/Antom payment modules, and LiteSpeed Cache optimization.
+              </div>
+              <div class="tech-tag-group">
+                <span class="tag">WordPress</span>
+                <span class="tag">WooCommerce</span>
+                <span class="tag">Elementor</span>
+                <span class="tag">PHP</span>
+                <span class="tag">LiteSpeed Cache</span>
+              </div>
+              <div class="archive-links mt-auto pt-3 border-top">
+                <a href="https://github.com/kenyongid/wordpres_toko_parfum.git" target="_blank" rel="noopener noreferrer" class="link-subtle">
+                  Inspect Repository <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 7: Flutter Vape Store -->
+          <div class="col-md-6 col-lg-4 project-archive-item" data-category="mobile">
+            <div class="archive-card h-100">
+              <div class="activity-img-frame mb-3 rounded border">
+                <img src="assets/projects/vapestore.png" onerror="this.onerror=null; this.src='assets/projects/vapestore_product.jpg';" alt="VapeStore Flutter Screenshot" class="img-fluid">
+              </div>
+              <div class="archive-meta">
+                <span class="cat-pill">MOBILE APP</span>
+                <span class="tag-status">Coursework / App</span>
+              </div>
+              <h3 class="archive-title">VapeStore: Mobile E-Commerce</h3>
+              <p class="archive-desc">
+                Cross-platform mobile application for retail browsing built with Flutter and Dart, focusing on state management and persistent local data storage.
+              </p>
+              <div class="code-note">
+                <i class="bi bi-phone text-cobalt me-1"></i>
+                <strong>Implementation:</strong> User authentication, Grid/List catalog views, Provider state management for real-time cart manipulation, and SQLite (sqflite) database for offline local storage. Presented purely as mobile engineering coursework.
+              </div>
+              <div class="tech-tag-group">
+                <span class="tag">Flutter</span>
+                <span class="tag">Dart</span>
+                <span class="tag">Provider</span>
+                <span class="tag">SQLite (sqflite)</span>
+                <span class="tag">Material 3</span>
+              </div>
+              <div class="archive-links mt-auto pt-3 border-top">
+                <a href="https://github.com/kenyongid/E-commerce_vapestore_Flutter.git" target="_blank" rel="noopener noreferrer" class="link-subtle">
+                  Inspect Repository <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 8: Bangka Snack with QGIS Map -->
+          <div class="col-md-6 col-lg-4 project-archive-item" data-category="mobile">
+            <div class="archive-card h-100">
+              <div class="activity-img-frame mb-3 rounded border">
+                <img src="assets/projects/babelsnack.png" onerror="this.onerror=null; this.src='assets/projects/babelsnack_kemplang.jpg';" alt="BabelSnack QGIS Screenshot" class="img-fluid">
+              </div>
+              <div class="archive-meta">
+                <span class="cat-pill">GIS & COMMERCE</span>
+                <span class="tag-status">WebGIS Project</span>
+              </div>
+              <h3 class="archive-title">BabelSnack: Regional Snack E-Commerce & Map</h3>
+              <p class="archive-desc">
+                Web application showcasing traditional culinary specialties from Bangka Belitung, paired with regional spatial visualization exported from QGIS desktop.
+              </p>
+              <div class="code-note">
+                <i class="bi bi-geo-alt text-cobalt me-1"></i>
+                <strong>Spatial Feature:</strong> Integrated WebGIS map (Leaflet/qgis2web) displaying geographic administrative trade distribution across 7 regencies in Bangka Belitung, accompanied by online order forms.
+              </div>
+              <div class="tech-tag-group">
+                <span class="tag">QGIS Desktop</span>
+                <span class="tag">WebGIS</span>
+                <span class="tag">Leaflet</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Bootstrap</span>
+              </div>
+              <div class="archive-links mt-auto pt-3 border-top">
+                <a href="https://github.com/kenyongid/e-commerce-snack-khas-bangka-menggunakan-qgis-map.git" target="_blank" rel="noopener noreferrer" class="link-subtle">
+                  Inspect Repository <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 9: Peduli Diri -->
+          <div class="col-md-6 col-lg-4 project-archive-item" data-category="web">
+            <div class="archive-card h-100">
+              <div class="activity-img-frame mb-3 rounded border">
+                <img src="assets/projects/peduli_diri_preview (2).png" onerror="this.onerror=null; this.src='assets/projects/peduli_diri_preview.png';" alt="Peduli Diri Screenshot" class="img-fluid">
+              </div>
+              <div class="archive-meta">
+                <span class="cat-pill">INFORMATION SYSTEM</span>
+                <span class="tag-status">Logbook App</span>
+              </div>
+              <h3 class="archive-title">Peduli Diri: Personal Travel & Health Logbook</h3>
+              <p class="archive-desc">
+                Web-based travel history and daily body temperature tracking application developed with PHP and the SB Admin 2 Bootstrap dashboard template.
+              </p>
+              <div class="code-note">
+                <i class="bi bi-card-checklist text-cobalt me-1"></i>
+                <strong>Core Features:</strong> Citizen identity (NIK) and full-name authentication, full CRUD operations for travel dates/locations, DataTables pagination/sorting, and text file export/import utilities.
+              </div>
+              <div class="tech-tag-group">
+                <span class="tag">PHP Native</span>
+                <span class="tag">Bootstrap</span>
+                <span class="tag">SB Admin 2</span>
+                <span class="tag">DataTables</span>
+                <span class="tag">File Storage</span>
+              </div>
+              <div class="archive-links mt-auto pt-3 border-top">
+                <a href="https://github.com/kenyongid/peduli-diri.git" target="_blank" rel="noopener noreferrer" class="link-subtle">
+                  Inspect Repository <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- No Projects Found Message -->
+        <div id="noProjectsFound" class="text-center py-5" style="display: none;">
+          <p class="text-muted">No matching repositories found. Try adjusting your search query or filter.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       CASE STUDY MODALS
+       ========================================================================== -->
+  <!-- MODAL: PENAHERO -->
+  <div class="modal fade" id="modalPenahero" tabindex="-1" aria-labelledby="modalPenaheroLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content case-study-modal">
+        <div class="modal-header">
+          <div>
+            <span class="modal-badge">CASE STUDY · AI INTEGRATION</span>
+            <h3 class="modal-title" id="modalPenaheroLabel">Penahero AI Recommendation System</h3>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="case-study-section">
+            <h4>Problem Statement</h4>
+            <p>
+              Users seeking fragrance products often struggle to articulate their scent preferences, occasion needs, or characteristic notes. Standard static catalog filters frequently return either zero matches or overwhelming lists with no explanatory reasoning.
+            </p>
+          </div>
+
+          <div class="case-study-section">
+            <h4>Proposed Solution & Architecture</h4>
+            <p>
+              Developed a conversational recommendation application using a Retrieval-Augmented Generation (RAG) architecture. Product records serve as an authoritative knowledge base. Textual descriptions are converted into vector embeddings, indexed within ChromaDB, and retrieved via cosine similarity. Retrieved context is passed to Google Gemini to formulate grounded recommendations.
+            </p>
+            <div class="code-flow-callout">
+              <code>User Prompt → Gemini Embeddings → ChromaDB Vector Search (Top-k context) → Prompt Formulation → Gemini LLM Response Generation → Laravel View</code>
+            </div>
+          </div>
+
+          <div class="case-study-section">
+            <h4>Technical Decisions & Engineering Considerations</h4>
+            <ul>
+              <li><strong>Hallucination Mitigation:</strong> Prompts are strictly bounded by retrieved product records so the model does not invent fictitious items.</li>
+              <li><strong>RAG Quality Evaluation:</strong> Evaluated using the RAGAS framework across metrics including faithfulness, answer relevancy, context precision, and context recall.</li>
+              <li><strong>Admin Dashboard:</strong> Implemented Laravel backend controllers for product catalog CRUD and review of conversational logs.</li>
+            </ul>
+          </div>
+
+          <div class="case-study-section">
+            <h4>Evaluation & Testing Results</h4>
+            <p>
+              Documented in academic testing: 100% functional test success across defined Black Box test cases, and a 92.25% User Acceptance Testing (UAT) score categorized as “Very Feasible”.
+            </p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-charcoal" data-bs-dismiss="modal">Close</button>
+          <a href="https://github.com/kenyongid/penahero-ai-recommendation-system" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary-cobalt">
+            Inspect Code on GitHub <i class="bi bi-arrow-up-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: SPORTSPACE -->
+  <div class="modal fade" id="modalSportSpace" tabindex="-1" aria-labelledby="modalSportSpaceLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content case-study-modal">
+        <div class="modal-header">
+          <div>
+            <span class="modal-badge">CASE STUDY · WEB RESERVATION SYSTEM</span>
+            <h3 class="modal-title" id="modalSportSpaceLabel">SportSpace: Sports Facility Reservation</h3>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="case-study-section">
+            <h4>Problem Statement</h4>
+            <p>
+              Sports facilities often face double-booking conflicts, manual booking proofs via messaging apps, unrecorded beverage add-on sales, and fragmented reporting for administrative staff.
+            </p>
+          </div>
+
+          <div class="case-study-section">
+            <h4>Implemented Solution</h4>
+            <p>
+              Built an end-to-end reservation platform using Laravel and MySQL. The system validates field availability against date and hour ranges, prevents slot collisions, allows customers to add optional concession products, and issues a downloadable PDF booking certificate with unique reference codes.
+            </p>
+          </div>
+
+          <div class="case-study-section">
+            <h4>Verified Features & Controller Architecture</h4>
+            <ul>
+              <li><strong>Collision Prevention:</strong> <code>BookingController::slotTerpakai</code> verifies occupied intervals before accepting a reservation transaction.</li>
+              <li><strong>Add-on Products:</strong> Integrated concession purchasing linked to the booking transaction (<code>simpantambahan</code>).</li>
+              <li><strong>PDF Reporting:</strong> Generates booking proofs with DomPDF and allows admins to export transaction logs to PDF, CSV, and Excel.</li>
+              <li><strong>Visual Dashboard:</strong> Reservation counts and activity trends visualised through ApexCharts.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-charcoal" data-bs-dismiss="modal">Close</button>
+          <a href="https://github.com/kenyongid/sistem_reservasi_lapangan.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary-cobalt">
+            Inspect Code on GitHub <i class="bi bi-arrow-up-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Col 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <span class="footer-monogram">FR</span>
+            <span class="footer-brand-name">Fadhil Raihan<span class="brand-dot">.</span></span>
+          </div>
+          <p class="footer-bio">
+            Junior Full-Stack Developer specializing in Laravel, PHP, MySQL, and AI-integrated applications. Grounded in Software Engineering and practical team workflows.
+          </p>
+          <div class="footer-status-box">
+            <span class="footer-status-indicator"></span>
+            <span class="text-white small fw-bold">Open to Junior Opportunities</span>
+          </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div class="col-lg-2 col-md-6">
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links-list list-unstyled">
+            <li><a href="index.html">Home Overview</a></li>
+            <li><a href="projects.html">Projects Archive (9)</a></li>
+            <li><a href="experience.html">Experience & Leadership</a></li>
+            <li><a href="achievements.html">Achievements & Credentials</a></li>
+            <li><a href="contact.html">Contact & Targeting</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3 -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-col-title">Contact Channels</h4>
+          <ul class="footer-contact-list list-unstyled">
+            <li><i class="bi bi-envelope text-cobalt"></i> <a href="mailto:reyhanfadil555@gmail.com">reyhanfadil555@gmail.com</a></li>
+            <li><i class="bi bi-telephone text-cobalt"></i> <a href="tel:+6283173775097">+62 831-7377-5097</a></li>
+            <li><i class="bi bi-github text-cobalt"></i> <a href="https://github.com/kenyongid" target="_blank" rel="noopener noreferrer">github.com/kenyongid</a></li>
+            <li><i class="bi bi-linkedin text-cobalt"></i> <a href="https://www.linkedin.com/in/fadhil-raihan-f74/" target="_blank" rel="noopener noreferrer">linkedin.com/in/fadhil-raihan-f74</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4 -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-col-title">Location & Details</h4>
+          <p class="small text-muted mb-2"><i class="bi bi-geo-alt me-1"></i> Semarang, Central Java, Indonesia</p>
+          <p class="small text-muted mb-3">Available for On-site, Hybrid, or Remote Junior Developer positions.</p>
+          <button type="button" class="btn btn-sm btn-outline-charcoal w-100 copy-contact-btn">
+            <i class="bi bi-clipboard-check me-1"></i> Copy Contact Summary
+          </button>
+          <div class="copy-feedback-msg small mt-1 text-center" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar d-flex flex-wrap align-items-center justify-content-between gap-3">
+        <div>
+          © 2026 Fadhil Raihan. Evidence-driven developer portfolio.
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <span class="text-muted small">Verified GitHub Repositories</span>
+          <button type="button" class="back-to-top-btn" id="backToTopBtn">
+            Back to Top <i class="bi bi-arrow-up ms-1"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
