@@ -1894,4 +1894,76 @@ a:hover {
     scroll-behavior: auto !important;
   }
 }
+.profile-portrait-card {
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.portrait-frame {
+    width: 280px;
+    height: 280px;
+    max-width: 100%;
+    margin: 0 auto 24px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #f1f5f9;
+    border: 4px solid #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portrait-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.portrait-fallback {
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.portrait-meta {
+    padding: 0 8px;
+}
+
+.portrait-name {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.portrait-title {
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.portrait-badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+@media (max-width: 767px) {
+    .portrait-frame {
+        width: 240px;
+        height: 240px;
+    }
+
+    .portrait-name {
+        font-size: 1.5rem;
+    }
+}
